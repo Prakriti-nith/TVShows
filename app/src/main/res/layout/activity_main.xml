@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+    <EditText
+        android:alpha="0.9"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="230dp"
+        android:id="@+id/editTextShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter TV show title"
+        android:textColorHint="#FFF"
+        android:textColor="#FFF"/>
+    <Button
+        android:id="@+id/buttonDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DONE"
+        android:background="#410e0e"
+        android:textColor="#FFF"
+        android:layout_below="@id/editTextShow"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

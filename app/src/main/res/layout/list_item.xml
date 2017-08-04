@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/txtViewSeason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:text="Season1"
+        android:layout_gravity="center"
+        android:textColor="#FFF"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txtViewNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:text="1"
+        android:layout_gravity="center"
+        android:textColor="#FFF"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txtViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:text="Winter is coming"
+        android:layout_gravity="center"
+        android:textColor="#FFF"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
